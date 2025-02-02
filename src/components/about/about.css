@@ -115,8 +115,8 @@
   
  
   
-  
-  @media screen and (max-width: 350px) {
+
+  @media screen and (max-width: 405px) {
     .about__img{
         display: none;
     }
@@ -127,8 +127,8 @@
     }
     .points-container {
       align-items: center;
-      margin-left: 1rem;
-      margin-right:1rem ;
+      
     }
+    
   } 
- 
+  

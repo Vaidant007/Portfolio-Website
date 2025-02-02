@@ -83,6 +83,8 @@
   }
 }
 
+
+
 @media (max-width: 480px) {
   .skill__box {
     width: 70px; /* Further reduce width of boxes */
@@ -97,5 +99,8 @@
   .section__subtitle1 {
     font-size: 0.9rem; /* Further reduce subtitle font size */
   }
+  .skill__box:nth-child(5) {  
+    display: none;
+}
 }
  
