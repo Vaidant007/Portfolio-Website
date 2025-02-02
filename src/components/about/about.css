@@ -74,4 +74,61 @@
     
     color: aqua;
   }
+  
+  @media screen and (max-width: 992px) {
+    .about__img{
+        width: 280px;
+        height: 280px;
+        margin-left: 3rem;
+        margin-bottom: 15rem;
+    }
+    .button {
+      
+      margin-left: 1rem;
+    }
+  
+    .button__icon {
+      width: 22px;
+      height: 22px;
+    }
+  
+  }
+  
+ 
+  
+  @media screen and (max-width: 768px) {
+    .about__img{
+        display: none;
+    }
+    .about__container{
+      grid-template-columns:none;
+     
+
+    }
+    .points-container {
+      align-items: center;
+      margin-left: 1.7rem;
+      margin-right:1.7rem ;
+    }
+
+  }
+  
+ 
+  
+  
+  @media screen and (max-width: 350px) {
+    .about__img{
+        display: none;
+    }
+    .about__container{
+      grid-template-columns:none;
+     
+
+    }
+    .points-container {
+      align-items: center;
+      margin-left: 1rem;
+      margin-right:1rem ;
+    }
+  } 
  

@@ -58,18 +58,44 @@
     margin-bottom: 3rem;
     font-weight: 300;
 }
-  /* Responsive Adjustments */
-  @media screen and (max-width: 768px) {
-    .row {
-      flex-wrap: wrap; /* Wrap boxes on smaller screens */
-      justify-content: center; /* Center-align on smaller screens */
-      gap: 0.8rem; /* Reduce gap further */
-    }
-  
-    .skill__box {
-      width: 90px; /* Smaller width */
-      height: 45px; /* Smaller height */
-      font-size: 0.8rem; /* Smaller font size */
-    }
+@media (max-width: 768px) {
+  .skills__container {
+    gap: 1rem; /* Reduce gap between rows on smaller screens */
   }
-  
+
+  .row {
+    flex-wrap: wrap; /* Allow boxes to wrap to the next line */
+    gap: 0.5rem; /* Reduce gap between boxes */
+  }
+
+  .skill__box {
+    width: 80px; /* Reduce width of boxes */
+    height: 40px; /* Reduce height of boxes */
+    font-size: 0.8rem; /* Reduce font size */
+  }
+
+  .section__title1 {
+    font-size: 2rem; /* Reduce title font size */
+  }
+
+  .section__subtitle1 {
+    font-size: 1rem; /* Reduce subtitle font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .skill__box {
+    width: 70px; /* Further reduce width of boxes */
+    height: 35px; /* Further reduce height of boxes */
+    font-size: 0.7rem; /* Further reduce font size */
+  }
+
+  .section__title1 {
+    font-size: 1.5rem; /* Further reduce title font size */
+  }
+
+  .section__subtitle1 {
+    font-size: 0.9rem; /* Further reduce subtitle font size */
+  }
+}
+ 
