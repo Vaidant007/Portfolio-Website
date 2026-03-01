@@ -5,7 +5,7 @@
     align-items: center;
 }
 .home__img{
-    background: url(../../assets/A2.jpg);
+     background: url(../../assets/A2.jpg); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

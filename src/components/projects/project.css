@@ -4,7 +4,7 @@
    /* background-color: #020617;*/
    background-color: #111827;
    
-    margin-top: 6.5rem;
+    
     
   }
   .section__title {
@@ -35,7 +35,7 @@
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+   margin-bottom: 3rem;
     font-weight: 300;
 }
   
