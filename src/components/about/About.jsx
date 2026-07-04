@@ -41,7 +41,12 @@ const About = () => {
           <div class="separator"></div>
           </div>
           {/* Download CV Button */}
-          <a download="" /*href={CV} */className="button button--flex ">
+         <a
+  href="https://drive.google.com/file/d/10vKJexyYwkoiXoZ39kqv7v7ku2JNLixX/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="button button--flex"
+>
                                           Download CV
                                           <svg
                                             className="button__icon"
