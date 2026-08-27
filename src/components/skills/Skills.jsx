@@ -13,19 +13,21 @@ function Skills() {
       <div class="skill__box">C</div>
       <div class="skill__box">Python</div>
       <div class="skill__box">HTML</div>
+      <div class="skill__box">CSS</div>
      
     </div>
     <div class="row">
-    <div class="skill__box">CSS</div>
+    <div class="skill__box">API</div>
       <div class="skill__box">JavaScript</div>
       <div class="skill__box">React</div>
       <div class="skill__box">Tailwind</div>
-      
+      <div class="skill__box">Node.js</div>
     </div>
     <div class="row center">
-    <div class="skill__box">API</div>
-      <div class="skill__box">Git</div>
-      <div class="skill__box">GitHub</div>
+    <div class="skill__box">Git</div>
+      <div class="skill__box">Git Hub</div>
+      <div class="skill__box">LLM Evaluation</div>
+      <div class="skill__box">REST API Integration</div>
     </div>
   </div>
 </section>

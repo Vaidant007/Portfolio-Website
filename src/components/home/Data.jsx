@@ -54,7 +54,7 @@ const Data = () => {
                   ></path>
                 </svg>
         </h1>
-        <h3 className='home__subtitle'>Frontend Developer</h3>
+        <h3 className='home__subtitle'>Software Developer</h3>
         <p className="home__description">
         "Passionate about creating smarter applications—exploring the limitless potential of AI and web technologies. 🚀"
         </p>
