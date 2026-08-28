@@ -35,7 +35,7 @@ const About = () => {
           {/* Download CV Button */}
           <div className="about__button-wrapper">
             <a
-              href="https://drive.google.com/file/d/10vKJexyYwkoiXoZ39kqv7v7ku2JNLixX/view?usp=sharing"
+              href="https://drive.google.com/file/d/1oOEVUPJHscroAndqKJ4mCO4c3x4cN34X/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="button button--flex"
