@@ -58,7 +58,7 @@ const Data = () => {
         <p className="home__description">
         "Passionate about creating smarter applications—exploring the limitless potential of AI and web technologies. 🚀"
         </p>
-        <a href="Contact" className="button button--flex">
+        <a href="/Contact" className="button button--flex">
        
         Say Hello
 
