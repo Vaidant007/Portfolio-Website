@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom"
 const Data = () => {
   return (
     <div className="home__data">
@@ -58,7 +58,7 @@ const Data = () => {
         <p className="home__description">
         "Passionate about creating smarter applications—exploring the limitless potential of AI and web technologies. 🚀"
         </p>
-        <a href="/Contact" className="button button--flex">
+        <Link to="/contact" className="button button--flex">
        
         Say Hello
 
@@ -81,7 +81,7 @@ const Data = () => {
                     fill="var(--container-color)"
                   ></path>
                 </svg>
-        </a>
+        </Link>
     </div>
   )
 }
