@@ -11,7 +11,7 @@ export const projects = [
       tech_stack: ["React.js", "Gemini API", "Tailwind CSS", "Google Places API"],
       project_image: AboutImg,
       githubLink: "https://github.com/Vaidant007/Ai-Trip-planner",
-      project_url: "https://ai-trip-planner-h3ry-msir2jpdu-vaidants-projects.vercel.app/",
+      project_url: "https://ai-trip-planner-h3ry.vercel.app/",
     },
    
   
